@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --all-headings: 'Outfit', sans-serif;
+  --hero-heading-size: 87px;
+  --hero-text-size: 24px;
+  --heading-color: #f4f4f4;
+  --paragraph: 'Roboto', sans-serif;
+  --body-background: #000235;
+  --text-color: #bebebe;
+  --text-sizing: 16px
+}
+
+body {
+  font-family: var(--paragraph);
+  background: var(--body-background);
+  color: var(--text-color);
+  font-size: var(--text-sizing);
+}
+
+
+/* DESKTOP STYLING */
+
+@media only screen and (min-width: 480px) {
+  .app {
+    width: 1440px;
+    max-width: 1040px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+}
+
