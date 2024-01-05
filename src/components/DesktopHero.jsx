@@ -1,0 +1,24 @@
+import { FaArrowDown } from "react-icons/fa";
+
+const DesktopHero = () => {
+  return (
+    <section className="hero__section border border-white">
+      <img src="/src/assets/image-web-3-mobile.jpg" alt="" />
+      <h1>Hello, I am Bruno Fernandes</h1>
+      <p>
+        I am a Junior Software Developer With a passion for creating beautiful
+        and functional web applications using modern technology.
+      </p>
+      <button className="flex items-center gap-2 text-md md:text-lg lg:text-xl p-3 px-6 md:p-3 md:px-6 text-slate-100 bg-gradient-to-b from-[#1970F2] to-black rounded-full ">
+        <strong>
+          <a href="#about" className="">
+            Find out more
+          </a>
+        </strong>
+        <FaArrowDown />
+      </button>
+    </section>
+  );
+};
+
+export default DesktopHero;
