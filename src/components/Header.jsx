@@ -21,8 +21,8 @@ const Header = ({ showNav, setShowNav }) => {
   return (
     <nav className={`header__container h-20 ${showNav ? "show__nav" : ""}`}>
       <section className="logo flex items-center gap-2">
-        <FaCode className="text-5xl" />
-        <h1 className="text-4xl">Bruno</h1>
+        <FaCode className="text-white text-5xl" />
+        <h1 className="text-white text-4xl font-bold">Bruno</h1>
       </section>
 
       <ul className="desktop__navigation__links flex justify-center items-center gap-8">
@@ -69,7 +69,7 @@ const Header = ({ showNav, setShowNav }) => {
       <button className="mobile__icon hover:bg-slate-900 rounded p-1">
         <GiHamburgerMenu
           onClick={() => setShowNav(true)}
-          className=" cursor-pointer text-4xl hover:text-white"
+          className=" cursor-pointer text-4xl text-white"
         />
       </button>
     </nav>
