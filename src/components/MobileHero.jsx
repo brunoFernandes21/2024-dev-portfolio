@@ -2,7 +2,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 const MobileHero = () => {
   return (
-    <section className="hero__section border border-white">
+    <section className="hero__section border mt-10 border-white">
       <img src="/src/assets/image-web-3-mobile.jpg" alt="" />
       <h1>Hello, I am Bruno Fernandes</h1>
       <p>

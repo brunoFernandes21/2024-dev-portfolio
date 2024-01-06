@@ -22,6 +22,7 @@ const App = () => {
         <AboutMe />
         <section className="bg-slate-500">
           <h1>Projects </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias excepturi voluptatibus aut doloremque eveniet ab nulla totam perspiciatis neque repellendus, corporis quaerat quae placeat, cupiditate consequatur. Maxime facere commodi velit!</p>
         </section>
         <section className="bg-white">
           <h1>Contact </h1>

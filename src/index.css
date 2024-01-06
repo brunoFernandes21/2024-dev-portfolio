@@ -132,7 +132,6 @@ nav .close__nav {
 
 /* HERO SECTION  */
 .hero__section {
-  margin: 40px 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
