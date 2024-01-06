@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <section className="about__me border mt-10 border-yellow-700">
       <h2>About Me</h2>
-      <p>
+      <p className="mt-6">
         I am passionate about learning in general and building Software
         Applications. I studied Computer Science at The University of Leeds and
         have did a Boot-camp in Software Engineering at Northcoders.
@@ -22,7 +22,7 @@ const AboutMe = () => {
         could not have done otherwise. Dreams do come true when you believe it
         and work hard.
       </p>
-      <div className="mt-10 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#0c225b] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+      <div className="mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#0c225b] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
         <img src="/src/assets/programming.svg" width={250} height={250} alt="Picture of a programmer at his desk" className="opacity-200"/>
       </div>
     </section>
