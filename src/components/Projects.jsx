@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <section className="projects mt-14 overflow-hidden">
+    <section id="projects" className="projects mt-14 overflow-hidden h-full">
       <h2>Projects</h2>
       <p className="mt-6">
         These projects demonstrate my expertise with practical examples of some
@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
         
         {/* Northcoders News  */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
           <img
             src="/src/assets/northcoders.png"
             alt="Image of northcoders news homepage"
@@ -53,7 +53,7 @@ const Projects = () => {
         </div>
 
         {/* Total fitness */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
           <img
             src="/src/assets/fitness1.png"
             alt="Image of northcoders news homepage"
@@ -90,7 +90,7 @@ const Projects = () => {
         </div>
 
          {/* Recipe Search */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
           <img
             src="/src/assets/meals-app.png"
             alt="Image of northcoders news homepage"
@@ -129,7 +129,7 @@ const Projects = () => {
         </div>
 
         {/* Bruno's blog */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
           <img
             src="/src/assets/brunos_blog.png"
             alt="Image of northcoders news homepage"
@@ -164,7 +164,7 @@ const Projects = () => {
         </div>
 
         {/* News Homepage */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
           <img
             src="/src/assets/news-homepage.png"
             alt="Image of northcoders news homepage"
