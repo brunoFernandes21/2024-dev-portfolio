@@ -177,6 +177,13 @@ nav .close__nav {
   width: 0;
 } */
 
+/* PROJECTS SECTION  */
+.projects > h2 {
+  font-family: var(--all-headings);
+  color: var(--heading-color);
+  font-size: var(--other-heading-mobile);
+}
+
 
 
 

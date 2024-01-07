@@ -11,7 +11,7 @@ const Skills = () => {
         I have worked with some of the most popular tech in the Web Development
         world from Backend to Frontend
       </p>
-      <div className="tech__container flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
+      <div className="flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
 
         <div className="rounded-t-lg shadow-sm shadow-gray-400 min-w-full ">
 
