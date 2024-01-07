@@ -1,6 +1,7 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
+import { TbSocial } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -66,7 +67,7 @@ const Skills = () => {
 
         <div className="flex justify-center flex-col rounded-t-lg shadow-sm shadow-gray-400 min-w-full">
           <div className="flex justify-center items-center flex-col bg-[#0c225b] rounded-t-lg py-2">
-            <FaTools className="text-white text-4xl" />
+            <TbSocial className="text-white text-4xl" />
             <p className="font-bold text-white mt-1">Social Media</p>
           </div>
 
