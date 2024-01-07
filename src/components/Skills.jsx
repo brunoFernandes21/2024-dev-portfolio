@@ -4,13 +4,13 @@ import { FaTools } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <section className="tech__skills mt-10  border-white overflow-hidden">
+    <section className="tech__skills mt-14 overflow-hidden">
       <h2>Technical Skills</h2>
       <p className="mt-6">
         I have worked with some of the most popular tech in the Web Development
         world from Backend to Frontend
       </p>
-      <div className="tech__container flex items-start gap-4  overflow-x-auto whitespace-nowrap mt-6 max-w-full">
+      <div className="tech__container flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
 
         <div className="rounded-t-lg shadow-sm shadow-gray-400 min-w-full ">
 
@@ -67,7 +67,7 @@ const Skills = () => {
         <div className="flex justify-center flex-col rounded-t-lg shadow-sm shadow-gray-400 min-w-full">
           <div className="flex justify-center items-center flex-col bg-[#0c225b] rounded-t-lg py-2">
             <FaTools className="text-white text-4xl" />
-            <p className="font-bold text-white mt-1">thinking</p>
+            <p className="font-bold text-white mt-1">Social Media</p>
           </div>
 
           <div className="bg-[#3a3a72] text-center flex flex-col gap-2 py-4">
