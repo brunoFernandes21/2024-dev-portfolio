@@ -4,6 +4,7 @@ import { useState } from "react";
 import Background from "./components/Background";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [showNav, setShowNav] = useState(false);
@@ -11,7 +12,7 @@ const App = () => {
     <main className="app overflow-hidden">
       <Background showNav={showNav} />
       <div className="mobile__bg__circle absolute top-[-190px] left-[10px] opacity-50 blur-2xl w-[300px] h-[300px] rounded-full bg-[#8d8dda] -z-20"></div>
-      {/* <div className={`mobile__bg__circle top-[510px] left-[330px]  opacity-50  blur-2xl w-[300px] h-[300px] rounded-full bg-[#ABD9D9] -z-20 ${showNav ? "hidden" : "absolute"}`}></div> */}
+      <div className={`mobile__bg__circle absolute top-[610px] right-[0]  opacity-50  blur-2xl w-[150px] h-[150px] rounded-full bg-[#ABD9D9] -z-20 `}></div>
       
 
       <div className="desktop__bg__circle absolute top-[-190px] left-[10px] opacity-50  blur-2xl w-[300px] h-[300px] rounded-full bg-[#8d8dda] -z-20"></div>
@@ -23,10 +24,7 @@ const App = () => {
         <DesktopHero />
         <AboutMe />
         <Skills/>
-        <section className="border border-green-500">
-          <h1>Projects </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias excepturi voluptatibus aut doloremque eveniet ab nulla totam perspiciatis neque repellendus, corporis quaerat quae placeat, cupiditate consequatur. Maxime facere commodi velit!</p>
-        </section>
+        <Projects/>
         <section className="bg-white">
           <h1>Contact </h1>
         </section>

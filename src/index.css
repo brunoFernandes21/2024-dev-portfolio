@@ -89,7 +89,8 @@ nav .header__links__mobile {
   width: 70%;
   height: 100%;
   /* background: #042331; */
-  background: #140a47;;
+  background: #0a0429;
+  /* background: #000235; */
   color: #fff;
   line-height: 40px;
   padding-top: 92px;
@@ -114,7 +115,7 @@ nav .header__links__mobile {
   padding-left: 10px;
 }
 .header__links__mobile > li:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(159, 154, 154, 0.1);
 }
 .show__nav > .mobile__icon {
   display: none;
@@ -176,6 +177,13 @@ nav .close__nav {
 /* .tech__container::-webkit-scrollbar {
   width: 0;
 } */
+
+/* PROJECTS SECTION  */
+.projects > h2 {
+  font-family: var(--all-headings);
+  color: var(--heading-color);
+  font-size: var(--other-heading-mobile);
+}
 
 
 

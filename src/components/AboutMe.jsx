@@ -22,7 +22,7 @@ const AboutMe = () => {
         could not have done otherwise. Dreams do come true when you believe it
         and work hard.
       </p>
-      <div className="mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#5037d0] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+      <div className="mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#2f18a1] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
         <img src="/src/assets/programming.svg" width={250} height={250} alt="Picture of a programmer at his desk" className="opacity-200"/>
       </div>
     </section>
