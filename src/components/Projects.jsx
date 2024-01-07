@@ -11,8 +11,9 @@ const Projects = () => {
       </p>
 
       <div className="flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
+        
         {/* Northcoders News  */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#3a3a72]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
           <img
             src="/src/assets/northcoders.png"
             alt="Image of northcoders news homepage"
@@ -52,28 +53,28 @@ const Projects = () => {
         </div>
 
         {/* Total fitness */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#3a3a72]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
           <img
             src="/src/assets/fitness1.png"
             alt="Image of northcoders news homepage"
             className="rounded-t-lg"
           />
-          <div className="p-2 py-4">
+          <div className="p-2 py-4 whitespace-pre-wrap break-words">
             <h3 className="font-bold text-lg text-white">
               Project title: Total Fitness
             </h3>
-            <p className="min-w-full">
+            <p>
             Total_Fitness is a MERN application created to help gym goers keep track of their workouts. Key functionalities include, user sign up and sign in, users can perform all CRUD operations. Includes profile page where user can update their info or delete their account.
             </p>
             <div className="mt-4">
               <h3 className="font-bold text-lg text-white">Tech Stack</h3>
-              <div className="flex justify-start items-start gap-4 font-bold ">
+              <div className="flex flex-wrap gap-2 font-bold">
                 <p>React</p>
                 <p>CSS</p>
                 <p>Tailwind CSS</p>
                 <p>MongoDb</p>
                 <p>Firebase</p>
-                {/* <p></p> */}
+                <p>Express</p>
               </div>
             </div>
 
@@ -89,7 +90,7 @@ const Projects = () => {
         </div>
 
          {/* Recipe Search */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#3a3a72]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
           <img
             src="/src/assets/meals-app.png"
             alt="Image of northcoders news homepage"
@@ -128,7 +129,7 @@ const Projects = () => {
         </div>
 
         {/* Bruno's blog */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#3a3a72]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
           <img
             src="/src/assets/brunos_blog.png"
             alt="Image of northcoders news homepage"
@@ -163,7 +164,7 @@ const Projects = () => {
         </div>
 
         {/* News Homepage */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#3a3a72]">
+        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#2f18a1]">
           <img
             src="/src/assets/news-homepage.png"
             alt="Image of northcoders news homepage"

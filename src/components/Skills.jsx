@@ -20,7 +20,7 @@ const Skills = () => {
             <p className="font-bold text-white">Front End</p>
           </div>
 
-          <div className="bg-[#3a3a72] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#2f18a1] text-center flex flex-col gap-2 py-4">
             <p className="text-white font-bold">HTML</p>
             <p className="text-white font-bold">CSS / Tailwind CSS</p>
             <p className="text-white font-bold">Javascript</p>
@@ -37,7 +37,7 @@ const Skills = () => {
             <p className="font-bold text-white">Back End</p>
           </div>
 
-          <div className="bg-[#3a3a72] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#2f18a1] text-center flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Node JS</p>
             <p className="text-white font-bold">Express JS</p>
             <p className="text-white font-bold">MongoDB</p>
@@ -54,7 +54,7 @@ const Skills = () => {
             <p className="font-bold text-white mt-1">Other</p>
           </div>
 
-          <div className="bg-[#3a3a72] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#2f18a1] text-center flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Git</p>
             <p className="text-white font-bold">GitHub</p>
             <p className="text-white font-bold">Netlify</p>
@@ -71,7 +71,7 @@ const Skills = () => {
             <p className="font-bold text-white mt-1">Social Media</p>
           </div>
 
-          <div className="bg-[#3a3a72] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#2f18a1] text-center flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Social Media Content Creation</p>
             <p className="text-white font-bold">Video Production</p>
             <p className="text-white font-bold">Photo Editing</p>
