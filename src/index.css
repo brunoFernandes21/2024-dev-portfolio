@@ -185,6 +185,13 @@ nav .close__nav {
   font-size: var(--other-heading-mobile);
 }
 
+/* Contact section  */
+.contact > h2 {
+  font-family: var(--all-headings);
+  color: var(--heading-color);
+  font-size: var(--other-heading-mobile);
+}
+
 
 
 

@@ -5,6 +5,7 @@ import Background from "./components/Background";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   const [showNav, setShowNav] = useState(false);
@@ -25,9 +26,7 @@ const App = () => {
         <AboutMe />
         <Skills/>
         <Projects/>
-        <section className="bg-white">
-          <h1>Contact </h1>
-        </section>
+        <Contact/>
       </section>
     </main>
   );
