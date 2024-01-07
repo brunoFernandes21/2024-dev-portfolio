@@ -12,17 +12,25 @@
 }
 
 :root {
+  /* General  */
   --all-headings: 'Outfit', sans-serif;
-  /* --navbar-links:  */
-  --hero-heading-desktop-size: 87px;
-  --hero-heading-mobile-size: 64px;
-  --about-me-heading-mobile: 32px;
-  --hero-text-size: 24px;
   --heading-color: #f4f4f4;
   --paragraph: 'Roboto', sans-serif;
   --body-background: #000235;
   --text-color: #bebebe;
-  --text-sizing: 16px
+  --text-sizing: 16px;
+
+  /* MOBILE  */
+  --hero-heading-desktop-size: 87px;
+  --hero-heading-mobile-size: 64px;
+  --other-heading-mobile: 24px;
+  --hero-text-size-mobile: 18px;
+
+  /* DESKTOP */
+
+
+  
+
 }
 
 body {
@@ -151,15 +159,30 @@ nav .close__nav {
   line-height: 70px;
 }
 
-.about__me {
-  
+.hero__section > p {
+  font-size: var(--hero-text-size-mobile);
 }
+
+/* ABOUT ME SECTION */
 
 .about__me > h2 {
   font-family: var(--all-headings);
   color: var(--heading-color);
-  font-size: var(--about-me-heading-mobile);
+  font-size: var(--other-heading-mobile);
 }
+
+/* TECH SKILLS SECTION  */
+.tech__skills > h2 {
+  font-family: var(--all-headings);
+  color: var(--heading-color);
+  font-size: var(--other-heading-mobile);
+}
+/* .tech__container::-webkit-scrollbar {
+  width: 0;
+} */
+
+
+
 
 
 /* DESKTOP STYLING */
