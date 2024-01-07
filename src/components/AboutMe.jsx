@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="about__me  mt-14">
+    <section id="about" className="about__me h-full  mt-14">
       <h2>About Me</h2>
       <p className="mt-6">
         I am passionate about learning in general and building Software
@@ -22,7 +22,7 @@ const AboutMe = () => {
         could not have done otherwise. Dreams do come true when you believe it
         and work hard.
       </p>
-      <div className="mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#2f18a1] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+      <div className="mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#1b1b8e] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
         <img src="/src/assets/programming.svg" width={250} height={250} alt="Picture of a programmer at his desk" className="opacity-200"/>
       </div>
     </section>
