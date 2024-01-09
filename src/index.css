@@ -144,13 +144,8 @@ nav .close__nav {
   align-items: flex-start;
   gap: 20px;
   padding: 0;
-  /* background-image: url("./assets/hero-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-  
 }
-.hero__section > h1 {
+.hero__text > h1 {
   font-family: var(--all-headings);
   font-size: var(--hero-heading-mobile-size);
   color: var(--heading-color);
@@ -212,6 +207,9 @@ nav .close__nav {
   .mobile__bg__circle {
     display: none;
   }
+  .desktop__bg__circle {
+    display: block;
+  }
 
   .header__container {
     width: 1440px;
@@ -240,10 +238,30 @@ nav .close__nav {
   }
 
   /* HERO SECTION  */
-
   .hero__section {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+    /* height: 100vh; */
+    /* margin-top: 0px; */
   }
+  .hero__section > img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .hero__text {
+    order: -1;
+  }
+
+  /* CONTACT SECTION  */
+
+  /* TECHNOLOGY SECTION  */
+
+  /* PROJECTS SECTIONS  */
+
+  /* CONTACT SECTION  */
 
 }
 
