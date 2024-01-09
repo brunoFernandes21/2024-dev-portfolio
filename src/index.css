@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,9 +13,9 @@
 
 :root {
   /* General  */
-  --all-headings: 'Outfit', sans-serif;
+  --all-headings: "Outfit", sans-serif;
   --heading-color: #f4f4f4;
-  --paragraph: 'Roboto', sans-serif;
+  --paragraph: "Roboto", sans-serif;
   --body-background: #000235;
   --text-color: #bebebe;
   --text-sizing: 16px;
@@ -32,11 +32,6 @@
 body {
   font-family: var(--paragraph);
   background: var(--body-background);
-  /*
-    background-image: url("./assets/hero-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right; */
   color: var(--text-color);
   font-size: var(--text-sizing);
 }
@@ -79,8 +74,6 @@ body {
 .social__icons__mobile {
   display: flex;
 }
-
-
 
 /* NAVIGATION */
 nav .header__links__mobile {
@@ -158,10 +151,17 @@ nav .close__nav {
 
 /* ABOUT ME SECTION */
 
+.about__me {
+  margin-top: 56px;
+}
 .about__me > h2 {
   font-family: var(--all-headings);
   color: var(--heading-color);
   font-size: var(--other-heading-mobile);
+}
+
+.about__text > p {
+  margin-top: 24px;
 }
 
 /* TECH SKILLS SECTION  */
@@ -188,20 +188,15 @@ nav .close__nav {
   font-size: var(--other-heading-mobile);
 }
 
-
-
-
-
 /* DESKTOP STYLING */
 
 @media only screen and (min-width: 480px) {
-
   .main__content {
     width: 1440px;
     max-width: 1065px;
     margin: 0 auto;
     padding: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .mobile__bg__circle {
@@ -218,10 +213,10 @@ nav .close__nav {
   }
 
   .header > .logo > h1 {
-    font-family: var(--all-headings)
+    font-family: var(--all-headings);
   }
 
-  .desktop__navigation__links  {
+  .desktop__navigation__links {
     display: flex;
   }
 
@@ -241,7 +236,8 @@ nav .close__nav {
   .hero__section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: space;
+    justify-content: space-between;
     gap: 100px;
     /* height: 100vh; */
     /* margin-top: 0px; */
@@ -256,12 +252,47 @@ nav .close__nav {
   }
 
   /* CONTACT SECTION  */
+  .about__me {
+    margin-top: 0;
+  }
+  .about__content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .about__me > h2 {
+    font-family: var(--all-headings);
+    color: var(--heading-color);
+    font-size: var(--other-heading-mobile);
+  }
+
+  .about__text > p {
+    margin-top: 24px;
+  }
+
+  .about__text > p:first-child {
+    margin-top: 0;
+  }
+
+  .about__content > .contact__image__div {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+  }
+
+  .about__text {
+    order: 1;
+  }
+  .about__content > .about__text {
+    padding: 0px;
+  }
 
   /* TECHNOLOGY SECTION  */
 
   /* PROJECTS SECTIONS  */
 
   /* CONTACT SECTION  */
-
 }
-
