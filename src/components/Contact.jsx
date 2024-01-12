@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact mt-14 relative ">
+    <section id="contact" className="contact relative ">
 
       <div className="contact__content ">
         <h2>Contact</h2>

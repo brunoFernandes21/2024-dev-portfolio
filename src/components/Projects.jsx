@@ -3,7 +3,7 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects mt-14 relative">
+    <section id="projects" className="projects relative">
       <h2>Projects</h2>
       <p className="mt-6">
         These projects demonstrate my expertise with practical examples of some

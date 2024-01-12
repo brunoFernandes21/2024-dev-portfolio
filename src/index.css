@@ -141,6 +141,7 @@ nav .close__nav {
   align-items: flex-start;
   gap: 20px;
   padding: 0;
+  margin-top: 40px;
 }
 .hero__text > h1 {
   font-family: var(--all-headings);
@@ -156,7 +157,7 @@ nav .close__nav {
 /* ABOUT ME SECTION */
 
 .about__me {
-  margin-top: 56px;
+  margin-top: 60px;
 }
 .about__me > h2 {
   font-family: var(--all-headings);
@@ -169,6 +170,9 @@ nav .close__nav {
 }
 
 /* TECH SKILLS SECTION  */
+.tech__skills {
+  margin-top: 60px;
+}
 .tech__skills > h2 {
   font-family: var(--all-headings);
   color: var(--heading-color);
@@ -189,6 +193,9 @@ nav .close__nav {
 } */
 
 /* PROJECTS SECTION  */
+.projects {
+  margin-top: 60px;
+}
 .projects > h2 {
   font-family: var(--all-headings);
   color: var(--heading-color);
@@ -213,17 +220,14 @@ nav .close__nav {
 }
 
 .contact {
-  padding: 20px;
+  margin-top: 60px;
 }
 
 .contact__info {
   padding: 20px;
   border-radius: 20px;
 }
-/* 
-.contact > .contact__content {
-  padding: 10px;
-} */
+
 
 .contact__socials {
   display: flex;
@@ -282,6 +286,7 @@ nav .close__nav {
     align-items: space;
     justify-content: space-between;
     gap: 100px;
+    margin-top: 80px;
   }
   .hero__section > img {
     width: 450px;
@@ -294,7 +299,7 @@ nav .close__nav {
 
   /* ABOUT ME SECTION  */
   .about__me {
-    margin-top: 0;
+    margin-top: 80px;
   }
   .about__content {
     position: relative;
@@ -328,6 +333,9 @@ nav .close__nav {
   }
 
   /* SKILLS SECTION  */
+  .tech__skills {
+    margin-top: 80px;
+  }
   .tech__skills > .cards__slider {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -344,7 +352,9 @@ nav .close__nav {
   }
 
   /* PROJECTS SECTIONS  */
-  
+  .projects {
+    margin-top: 80px;
+  }
   .projects__slider > .project__cards {
     min-width: 420px;
 
@@ -358,6 +368,7 @@ nav .close__nav {
     justify-content: center;
     align-items: start;
     padding: 0;
+    margin-top: 80px;
   }
 
   .contact__content {

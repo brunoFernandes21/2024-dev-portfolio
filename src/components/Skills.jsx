@@ -5,7 +5,7 @@ import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <section id="skills" className="tech__skills mt-14 relative">
+    <section id="skills" className="tech__skills relative">
       <h2>Technical Skills</h2>
       {/* <div className="desktop__bg__circle absolute opacity-50 left-0  blur-3xl w-[200px] h-[200px] rounded-full bg-[#ABD9D9] -z-20 "></div> */}
       <p className="mt-6">
