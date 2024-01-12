@@ -27,7 +27,7 @@ const AboutMe = () => {
           </p>
         </div>
 
-        <div className="contact__image__div border mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#1b1b8e] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+        <div className="contact__image__div mt-6 flex justify-center overflow-hidden mx-auto w-[200px] h-[200px] bg-[#1b1b8e] rounded-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
           <img
             src="/programming.svg"
             width={250}

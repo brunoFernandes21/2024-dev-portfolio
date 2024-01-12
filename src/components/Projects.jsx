@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="projects__slider flex items-start gap-4 whitespace-nowrap max-w-full py-8">
         
         {/* Northcoders News  */}
-        <div className="project__cards rounded-lg border whitespace-pre-wrap break-words bg-[#0b0b5d]">
+        <div className="project__cards rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/northcoders.png"
             alt="Image of northcoders news homepage"
@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
 
         {/* Total fitness */}
-        <div className="project__cards rounded-t-lg border rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/fitness1.png"
             alt="Image of total fitness homepage"
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
 
          {/* Recipe Search */}
-        <div className="project__cards rounded-t-lg border rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="meals-app.png"
             alt="Image of meals app homepage"
@@ -127,7 +127,7 @@ const Projects = () => {
         </div>
 
         {/* Bruno's blog */}
-        <div className="project__cards rounded-t-lg border rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/brunos_blog.png"
             alt="Image of brunos blog homepage"
@@ -162,7 +162,7 @@ const Projects = () => {
         </div>
 
         {/* News Homepage */}
-        <div className="project__cards rounded-t-lg border rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg rounded-lg whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/news-homepage.png"
             alt="Image of news homepage"
