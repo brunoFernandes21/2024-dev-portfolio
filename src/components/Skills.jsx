@@ -21,7 +21,7 @@ const Skills = () => {
             <p className="font-bold text-white">Front End</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center flex flex-col rounded-lg gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center flex flex-col rounded-b-lg gap-2 py-4">
             <p className="text-white font-bold">HTML</p>
             <p className="text-white font-bold">CSS / Tailwind CSS</p>
             <p className="text-white font-bold">Javascript</p>
@@ -39,7 +39,7 @@ const Skills = () => {
             <p className="font-bold text-white">Back End</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center rounded-lg flex flex-col gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center rounded-b-lg flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Node JS</p>
             <p className="text-white font-bold">Express JS</p>
             <p className="text-white font-bold">MongoDB</p>
@@ -56,7 +56,7 @@ const Skills = () => {
             <p className="font-bold text-white mt-1">Other</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center rounded-lg flex flex-col gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center rounded-b-lg flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Git</p>
             <p className="text-white font-bold">GitHub</p>
             <p className="text-white font-bold">Netlify</p>
