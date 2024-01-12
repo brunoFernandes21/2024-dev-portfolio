@@ -1,19 +1,20 @@
 import { Link } from "react-router-dom";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects mt-14 overflow-hidden h-full">
+    <section id="projects" className="projects mt-14 relative">
       <h2>Projects</h2>
       <p className="mt-6">
         These projects demonstrate my expertise with practical examples of some
         of my work, including brief descriptions and links to code repositories
-        and live demos. Click here to check out all the projects.
+        and live demos. Click <strong><a href="https://brunofer-projects.netlify.app " target="_blank" rel="noopener noreferrer">here</a></strong> to check out all the projects.
       </p>
 
-      <div className="flex items-start gap-4  overflow-x-auto whitespace-nowrap max-w-full py-8">
+      <div className="projects__slider flex items-start gap-4 whitespace-nowrap max-w-full py-8">
         
         {/* Northcoders News  */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/src/assets/northcoders.png"
             alt="Image of northcoders news homepage"
@@ -37,15 +38,15 @@ const Projects = () => {
                 <p>CSS</p>
                 <p>Tailwind CSS</p>
                 <p>PostGreSQL</p>
-                <p>Axios</p>
+                {/* <p>Axios</p> */}
               </div>
             </div>
 
             <div className="flex gap-6 mt-4">
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://www.bfnc-news.com" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Live</span>
               </Link>
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://github.com/brunoFernandes21/nc-news" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Source Code</span>
               </Link>
             </div>
@@ -53,7 +54,7 @@ const Projects = () => {
         </div>
 
         {/* Total fitness */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/src/assets/fitness1.png"
             alt="Image of northcoders news homepage"
@@ -71,7 +72,7 @@ const Projects = () => {
               <div className="flex flex-wrap gap-2 font-bold">
                 <p>React</p>
                 <p>CSS</p>
-                <p>Tailwind CSS</p>
+                {/* <p>Tailwind CSS</p> */}
                 <p>MongoDb</p>
                 <p>Firebase</p>
                 <p>Express</p>
@@ -79,10 +80,7 @@ const Projects = () => {
             </div>
 
             <div className="flex gap-6 mt-4">
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
-                <span>Live</span>
-              </Link>
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://github.com/brunoFernandes21/Total_Fitness" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Source Code</span>
               </Link>
             </div>
@@ -90,7 +88,7 @@ const Projects = () => {
         </div>
 
          {/* Recipe Search */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/src/assets/meals-app.png"
             alt="Image of northcoders news homepage"
@@ -118,10 +116,10 @@ const Projects = () => {
             </div>
 
             <div className="flex gap-6 mt-4">
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://brunos-meals-app.netlify.app" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Live</span>
               </Link>
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://github.com/brunoFernandes21/vite-meals-app" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Source Code</span>
               </Link>
             </div>
@@ -129,7 +127,7 @@ const Projects = () => {
         </div>
 
         {/* Bruno's blog */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/src/assets/brunos_blog.png"
             alt="Image of northcoders news homepage"
@@ -140,7 +138,7 @@ const Projects = () => {
               Project title: Bruno&apos;s Blog
             </h3>
             <p className="min-w-full">
-            Learning Redux Toolkit by building this simple social media app feed. Although the app is not fully functional, users can perform various actions such as react to posts, view posts, update own posts and delete posts. The objective of this project was to learn React Toolkit. 
+            Learning Redux Toolkit by building this simple social media app feed. Although the app is not fully functional, users can perform various actions such as react to posts, view posts, update and delete posts. It was an excellent way to learn Redux Toolkit.
             </p>
             <div className="mt-4">
               <h3 className="font-bold text-lg text-white">Tech Stack</h3>
@@ -153,10 +151,10 @@ const Projects = () => {
             </div>
 
             <div className="flex gap-6 mt-4">
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://bfblog.netlify.app" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Live</span>
               </Link>
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://github.com/brunoFernandes21/brunos-blog-redux" target="_blank"  rel="noopener noreferrer"className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Source Code</span>
               </Link>
             </div>
@@ -164,7 +162,7 @@ const Projects = () => {
         </div>
 
         {/* News Homepage */}
-        <div className="rounded-t-lg shadow-sm shadow-gray-400 overflow-hidden whitespace-pre-wrap break-words min-w-full bg-[#0b0b5d]">
+        <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
             src="/src/assets/news-homepage.png"
             alt="Image of northcoders news homepage"
@@ -187,17 +185,22 @@ const Projects = () => {
             </div>
 
             <div className="flex gap-6 mt-4">
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://bf-news-homepage.netlify.app" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Live</span>
               </Link>
-              <Link className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
+              <Link to="https://github.com/brunoFernandes21/news-homepage" target="_blank" rel="noopener noreferrer" className="font-bold block bg-white py-1 px-4 rounded-full text-slate-800">
                 <span>Source Code</span>
               </Link>
             </div>
           </div>
         </div>
-
       </div>
+
+      <div className="back__to_top absolute hidden md:block bottom-10 -right-20">
+          <a href="#hero">
+            <BsFillArrowUpCircleFill className="text-white text-4xl cursor-pointer hover:scale-125 transition ease-linear" />
+          </a>
+        </div>
     </section>
   );
 };

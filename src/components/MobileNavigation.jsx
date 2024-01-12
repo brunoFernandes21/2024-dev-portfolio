@@ -22,7 +22,7 @@ const MobileNavigation = ({ setShowNav }) => {
           onClick={() => setShowNav(false)}
           className="close__nav cursor-pointer text-4xl hover:text-slate-900"
         />
-        <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
+        <li onClick={() => setShowNav(false)} className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
           <a
             href="#about"
             className="transition duration-150 ease-in hover:text-slate-400"
@@ -30,7 +30,15 @@ const MobileNavigation = ({ setShowNav }) => {
             <span>About Me</span>
           </a>
         </li>
-        <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
+        <li onClick={() => setShowNav(false)} className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
+          <a
+            href="#skills"
+            className="transition duration-150 ease-in hover:text-slate-400"
+          >
+            <span>Skills</span>
+          </a>
+        </li>
+        <li onClick={() => setShowNav(false)} className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
           <a
             href="#projects"
             className="transition duration-150 ease-in hover:text-slate-400"
@@ -38,7 +46,7 @@ const MobileNavigation = ({ setShowNav }) => {
             <span>Projects</span>
           </a>
         </li>
-        <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
+        <li onClick={() => setShowNav(false)} className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
           <a
             href="#contact"
             className="transition duration-150 ease-in hover:text-slate-400"
