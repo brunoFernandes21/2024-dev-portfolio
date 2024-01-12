@@ -7,7 +7,7 @@ const Contact = () => {
 
       <div className="contact__content ">
         <h2>Contact</h2>
-        <div className="contact__info mt-6 ml-10 shadow-sm bg-slate-900 shadow-white">
+        <div className="contact__info mt-10 shadow-sm bg-slate-900 shadow-white">
           <p className="text-sm">
             Looking for a <strong>Junior Software Developer</strong> to join
             your team?

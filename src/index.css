@@ -45,7 +45,6 @@ body {
   max-width: 480px;
   margin: 0 auto;
   padding: 0px 10px 10px 10px;
-  border: 1px solid white;
 }
 
 .backdrop {
@@ -216,6 +215,11 @@ nav .close__nav {
 .contact {
   padding: 20px;
 }
+
+.contact__info {
+  padding: 20px;
+  border-radius: 20px;
+}
 /* 
 .contact > .contact__content {
   padding: 10px;
@@ -365,6 +369,7 @@ nav .close__nav {
   .contact__info {
     padding: 20px;
     border-radius: 20px;
+    margin-left: 40px;
   }
 
   .contact > .contact__socials {

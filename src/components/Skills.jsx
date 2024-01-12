@@ -15,14 +15,14 @@ const Skills = () => {
       </p>
       <div className="cards__slider items-start gap-4 py-8">
 
-        <div className="cards rounded-t-lg shadow-sm shadow-gray-400">
+        <div className="cards border rounded-lg">
 
           <div className="flex justify-center items-center flex-col bg-[#0c225b] rounded-t-lg py-2">
             <FaHtml5 className="text-white text-4xl" />
             <p className="font-bold text-white">Front End</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center flex flex-col rounded-lg gap-2 py-4">
             <p className="text-white font-bold">HTML</p>
             <p className="text-white font-bold">CSS / Tailwind CSS</p>
             <p className="text-white font-bold">Javascript</p>
@@ -33,13 +33,14 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className=" cards flex justify-center flex-col rounded-t-lg shadow-sm shadow-gray-400 min-w-full">
+        <div className="cards border rounded-lg">
+
           <div className="flex justify-center items-center flex-col bg-[#0c225b] rounded-t-lg py-2">
             <FaCode className="text-white text-4xl" />
             <p className="font-bold text-white">Back End</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center rounded-lg flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Node JS</p>
             <p className="text-white font-bold">Express JS</p>
             <p className="text-white font-bold">MongoDB</p>
@@ -50,13 +51,13 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="cards flex justify-center flex-col rounded-t-lg shadow-sm shadow-gray-400 min-w-full">
+        <div className="cards border rounded-lg">
           <div className="flex justify-center items-center flex-col bg-[#0c225b] rounded-t-lg py-2">
             <FaTools className="text-white text-3xl" />
             <p className="font-bold text-white mt-1">Other</p>
           </div>
 
-          <div className="bg-[#0b0b5d] text-center flex flex-col gap-2 py-4">
+          <div className="bg-[#0b0b5d] text-center rounded-lg flex flex-col gap-2 py-4">
             <p className="text-white font-bold">Git</p>
             <p className="text-white font-bold">GitHub</p>
             <p className="text-white font-bold">Netlify</p>
