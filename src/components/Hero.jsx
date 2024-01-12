@@ -3,7 +3,7 @@ import { FaArrowDown } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="hero__section mt-10">
-      <img src="/src/assets/hero-image-4.svg" alt="Illustration of a laptop and a mobile phone" />
+      <img src="/hero-image-4.svg" alt="Illustration of a laptop and a mobile phone" />
       <div className="hero__text ">
       <h1>Hello, I am Bruno Fernandes</h1>
       <p className="mt-6">

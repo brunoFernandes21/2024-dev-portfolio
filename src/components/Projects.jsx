@@ -16,7 +16,7 @@ const Projects = () => {
         {/* Northcoders News  */}
         <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
-            src="/src/assets/northcoders.png"
+            src="/northcoders.png"
             alt="Image of northcoders news homepage"
             className="rounded-t-lg"
           />
@@ -56,8 +56,8 @@ const Projects = () => {
         {/* Total fitness */}
         <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
-            src="/src/assets/fitness1.png"
-            alt="Image of northcoders news homepage"
+            src="/fitness1.png"
+            alt="Image of total fitness homepage"
             className="rounded-t-lg"
           />
           <div className="p-2 py-4 whitespace-pre-wrap break-words">
@@ -90,8 +90,8 @@ const Projects = () => {
          {/* Recipe Search */}
         <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
-            src="/src/assets/meals-app.png"
-            alt="Image of northcoders news homepage"
+            src="meals-app.png"
+            alt="Image of meals app homepage"
             className="rounded-t-lg"
           />
           <div className="p-2 py-4">
@@ -129,8 +129,8 @@ const Projects = () => {
         {/* Bruno's blog */}
         <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
-            src="/src/assets/brunos_blog.png"
-            alt="Image of northcoders news homepage"
+            src="/brunos_blog.png"
+            alt="Image of brunos blog homepage"
             className="rounded-t-lg"
           />
           <div className="p-2 py-4">
@@ -164,8 +164,8 @@ const Projects = () => {
         {/* News Homepage */}
         <div className="project__cards rounded-t-lg shadow-sm shadow-gray-400 whitespace-pre-wrap break-words bg-[#0b0b5d]">
           <img
-            src="/src/assets/news-homepage.png"
-            alt="Image of northcoders news homepage"
+            src="/news-homepage.png"
+            alt="Image of news homepage"
             className="rounded-t-lg"
           />
           <div className="p-2 py-4">
