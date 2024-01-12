@@ -44,7 +44,8 @@ body {
 .main__content {
   max-width: 480px;
   margin: 0 auto;
-  padding: 0px 10px 15px 10px;
+  padding: 0px 10px 10px 10px;
+  border: 1px solid white;
 }
 
 .backdrop {
@@ -234,7 +235,7 @@ nav .close__nav {
     width: 1440px;
     max-width: 1065px;
     margin: 0 auto;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 40px 0px;
   }
 
   .mobile__bg__circle {
@@ -299,6 +300,7 @@ nav .close__nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
+    padding: 0px 10px 0px 0px;
   }
    .about__text > p {
     margin-top: 24px;
@@ -351,7 +353,7 @@ nav .close__nav {
     gap: 40px;
     justify-content: center;
     align-items: start;
-    padding: 40px;
+    padding: 0;
   }
 
   .contact__content {
@@ -360,13 +362,10 @@ nav .close__nav {
     background: transparent;
   }
 
-  /* .contact__info {
-    background: rgb(28, 33, 37);
+  .contact__info {
     padding: 20px;
     border-radius: 20px;
-  } */
-
-
+  }
 
   .contact > .contact__socials {
     display: flex;

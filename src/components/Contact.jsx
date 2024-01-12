@@ -1,13 +1,13 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact mt-14 rounded-lg5 relative ">
+    <section id="contact" className="contact mt-14 relative ">
+
       <div className="contact__content ">
         <h2>Contact</h2>
-        <div className="contact__info mt-4 shadow-md bg-slate-900 shadow-white p-4 rounded-lg">
+        <div className="contact__info mt-6 ml-10 shadow-sm bg-slate-900 shadow-white">
           <p className="text-sm">
             Looking for a <strong>Junior Software Developer</strong> to join
             your team?
@@ -32,6 +32,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+
     </section>
   );
 };
