@@ -173,7 +173,7 @@ const Projects = () => {
               Project title: News Homepage
             </h3>
             <p className="min-w-full">
-            This is a News Homepage site that I built as a way of practicing web design and put my css skills into practice. The site and not fully responsive but it has mobile and desktop responsiveness as my main focus was on mobile and desktop. 
+            This is a News Homepage site that I built as a way of practicing web design and put my css skills into practice. The site is not fully responsive but it has mobile and desktop responsiveness as my main focus was on mobile and desktop. 
             </p>
             <div className="mt-4">
               <h3 className="font-bold text-lg text-white">Tech Stack</h3>

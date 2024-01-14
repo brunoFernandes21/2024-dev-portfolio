@@ -8,7 +8,7 @@ const AboutMe = () => {
           <p>
             I am <strong>passionate about learning</strong> in general and{" "}
             <strong>building Software and Web Applications</strong>. I studied
-            Computer Science at The University of Leeds and have did a Boot-camp
+            Computer Science at The University of Leeds and recently did a Boot-camp
             in Software Engineering at Northcoders.
           </p>
           <p>
