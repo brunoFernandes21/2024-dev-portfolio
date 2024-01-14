@@ -153,6 +153,29 @@ nav .close__nav {
 .hero__section > p {
   font-size: var(--hero-text-size-mobile);
 }
+.online__courses {
+  padding: 5px;
+  background-color: rgba(84, 69, 146, 0.3);
+}
+.courses {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+
+.online__platforms {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.online__platforms > p, .courses > p {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
 
 /* ABOUT ME SECTION */
 
@@ -285,8 +308,8 @@ nav .close__nav {
     grid-template-columns: 1fr 1fr;
     align-items: space;
     justify-content: space-between;
-    gap: 100px;
-    margin-top: 80px;
+    gap: 70px;
+    margin-top: 150px;
   }
   .hero__section > img {
     width: 450px;
@@ -295,6 +318,19 @@ nav .close__nav {
 
   .hero__text {
     order: -1;
+  }
+
+  .online__courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
+    padding: 10px;
+  }
+
+  .online__platforms > p, .courses > p {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
   }
 
   /* ABOUT ME SECTION  */
