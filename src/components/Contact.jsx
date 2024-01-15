@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact__content ">
         <h2>Contact</h2>
         <div className="contact__info mt-10 shadow-sm bg-slate-900 shadow-white">
-          <p className="text-sm">
+          <p>
             Looking for a <strong>Junior Software Developer</strong> to join
             your team?
           </p>
@@ -19,7 +19,7 @@ const Contact = () => {
       </div>
 
       <div className=" contact__socials gap-4 p-4">
-        <h2 className="text-lg">Socials</h2>
+        <h2 >Socials</h2>
         <div className="socials__icons flex gap-4">
           <Link to="https://github.com/brunoFernandes21" target="_blank">
             <FaGithub className="text-2xl" />

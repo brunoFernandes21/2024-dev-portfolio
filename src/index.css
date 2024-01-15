@@ -257,6 +257,7 @@ nav .close__nav {
   justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
+  padding-left: 0;
 }
 
 /* DESKTOP STYLING */
