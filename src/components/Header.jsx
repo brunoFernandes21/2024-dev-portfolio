@@ -24,8 +24,8 @@ const Header = ({ showNav, setShowNav }) => {
       className={`header__container h-20 ${showNav ? "show__nav" : ""}`}
     >
       <section className="logo flex items-center gap-2">
-        <FaCode className="text-white text-5xl" />
-        <h1 className="text-white text-4xl font-bold">Bruno</h1>
+        <FaCode className="text-4xl" />
+        <h1 className="text-xl font-bold">Software Developer</h1>
       </section>
 
       <ul
@@ -90,7 +90,7 @@ const Header = ({ showNav, setShowNav }) => {
       <button className="mobile__icon hover:bg-slate-900 rounded p-1">
         <GiHamburgerMenu
           onClick={() => setShowNav(true)}
-          className=" cursor-pointer text-4xl text-white"
+          className=" cursor-pointer text-4xl"
         />
       </button>
     </nav>

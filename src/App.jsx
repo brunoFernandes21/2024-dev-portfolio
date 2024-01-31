@@ -6,8 +6,6 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-// TODO 
-//ADD SCROLLING SNAP SO THAT THE PAGE SCROLL TO THE RIGHT SECTION ONCE NAV LINK IS CLICKED ON
 
 
 const App = () => {
