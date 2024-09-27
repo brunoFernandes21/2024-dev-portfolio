@@ -17,7 +17,6 @@ const Header = ({ showNav, setShowNav }) => {
     });
   };
 
-
   return (
     <nav
       id="hero"
@@ -28,9 +27,7 @@ const Header = ({ showNav, setShowNav }) => {
         <h1 className="text-xl font-bold">Software Developer</h1>
       </section>
 
-      <ul
-        className="desktop__navigation__links flex justify-center items-center gap-8"
-      >
+      <ul className="desktop__navigation__links flex justify-center items-center gap-8">
         <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
           <a
             href="#about"
@@ -63,14 +60,14 @@ const Header = ({ showNav, setShowNav }) => {
             <span>Contact</span>
           </a>
         </li>
-        <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
+        {/* <li className="text-lg hover:text-slate-500 transition ease-in-out cursor-pointer font-bold">
           <button
             onClick={downloadCV}
             className="transition duration-150 ease-in hover:text-slate-400"
           >
             Get CV
           </button>
-        </li>
+        </li> */}
       </ul>
 
       <section className="social__icons flex items-center gap-4">

@@ -13,9 +13,10 @@ const Hero = () => {
       <div className="hero__text">
         <h1>Hello, I am Bruno Fernandes</h1>
         <p className="mt-6">
-          I am a <strong>Junior Software Developer</strong> with a passion for{" "}
-          <strong>creating beautiful and functional</strong> web applications
-          using modern technology.
+          I am a <strong>Software Developer and Content Creator</strong> with a
+          passion for <strong>creating beautiful and functional</strong> web
+          applications using modern technology as well as creating social media
+          content.
         </p>
         <button className="flex items-center gap-2 mt-6 text-md md:text-lg lg:text-xl p-3 px-6 md:p-3 md:px-6 text-slate-100 bg-gradient-to-b from-[#3700ff] to-black rounded-full">
           <strong>
@@ -35,14 +36,14 @@ const Hero = () => {
             <p>Software Engineering Bootcamp</p>
           </div>
         </div>
-        <div >
+        <div>
           <h2>Online Platforms</h2>
           <div className="online__platforms">
-          <p>Free Code Camp</p>
-          <p>CodeCademy</p>
-          <p>Codewars</p>
-          <p>Hackerrank</p>
-          <p>Udemy</p>
+            <p>Free Code Camp</p>
+            <p>CodeCademy</p>
+            <p>Codewars</p>
+            <p>Hackerrank</p>
+            <p>Udemy</p>
           </div>
         </div>
       </div>
