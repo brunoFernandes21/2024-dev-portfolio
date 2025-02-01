@@ -22,12 +22,14 @@ const AboutMe = () => {
             Teaching myself English has been my greatest achievement. It opened
             doors to opportunities I never imagined possible and shaped the
             person I am today. Because of this, I&apos;m passionate about
-            helping others on their English learning journey. I run a YouTube
-            channel, &apos;English with Bruno McDowell,&apos; where I share
-            practical tips, lessons, and advice to help learners improve their
-            English skills in a fun and engaging way. If there&apos;s one thing
-            I&apos;ve learned, it&apos;s this: dreams do come true when you
-            believe in them and put in the work.
+            helping others on their English learning journey.
+          </p>
+          <p>
+            I run a YouTube channel, &apos;English with Bruno McDowell,&apos;
+            where I share practical tips, lessons, and advice to help learners
+            improve their English skills in a fun and engaging way. If
+            there&apos;s one thing I&apos;ve learned, it&apos;s this: dreams do
+            come true when you believe in them and put in the work.
           </p>
         </div>
 
