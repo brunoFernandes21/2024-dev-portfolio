@@ -1,4 +1,3 @@
-
 const AboutMe = () => {
   return (
     <section id="about" className="about__me">
@@ -6,24 +5,29 @@ const AboutMe = () => {
       <div className="about__content">
         <div className="about__text">
           <p>
-            I am <strong>passionate about learning</strong> in general and{" "}
-            <strong>building Software and Web Applications</strong>. I studied
-            Computer Science at The University of Leeds and recently did a Boot-camp
-            in Software Engineering at Northcoders.
+            I have always been passionate about learning, whether it&apos;s
+            building software and web applications or mastering new skills. I
+            studied Computer Science at the University of Leeds and recently
+            completed a Software Engineering Bootcamp at Northcoders to sharpen
+            my skills.
           </p>
           <p>
-            My goal is to become a{" "}
-            <strong>successful Software Developer</strong>. In 5 years I see
-            myself working as a Full Stack Software Developer. 15 years ago I
-            was living on an Island and could hardly introduce myself in English
-            and today I am an aspiring Software Developer in England. This is
-            mind blowing!
+            My goal is to become a successful Full Stack Software Developer.
+            It&apos;s incredible to think that 15 years ago, I was living on an
+            island, barely able to introduce myself in English—yet today,
+            I&apos;m pursuing a tech career in England. That journey still
+            amazes me!
           </p>
           <p>
-            <strong>Teaching myself English</strong> has been my greatest
-            achievement, as it has unlocked doors to opportunities and enabled
-            me to achieve things that I could not have done otherwise. Dreams do
-            come true when you believe it and work hard.
+            Teaching myself English has been my greatest achievement. It opened
+            doors to opportunities I never imagined possible and shaped the
+            person I am today. Because of this, I&apos;m passionate about
+            helping others on their English learning journey. I run a YouTube
+            channel, &apos;English with Bruno McDowell,&apos; where I share
+            practical tips, lessons, and advice to help learners improve their
+            English skills in a fun and engaging way. If there&apos;s one thing
+            I&apos;ve learned, it&apos;s this: dreams do come true when you
+            believe in them and put in the work.
           </p>
         </div>
 

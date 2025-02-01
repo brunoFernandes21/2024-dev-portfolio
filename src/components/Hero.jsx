@@ -15,8 +15,8 @@ const Hero = () => {
         <p className="mt-6">
           I am a <strong>Software Developer and Content Creator</strong> with a
           passion for <strong>creating beautiful and functional</strong> web
-          applications using modern technology as well as creating social media
-          content.
+          applications using modern technology. I also create engaging social
+          media content to help people learn to speak English fluently.
         </p>
         <button className="flex items-center gap-2 mt-6 text-md md:text-lg lg:text-xl p-3 px-6 md:p-3 md:px-6 text-slate-100 bg-gradient-to-b from-[#3700ff] to-black rounded-full">
           <strong>
