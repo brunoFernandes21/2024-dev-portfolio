@@ -1,7 +1,3 @@
-import { FaYoutube, FaTiktok } from "react-icons/fa";
-
-import { Link } from "react-router-dom";
-
 const ContentCreation = () => {
   return (
     <section id="content-creation" className="content__creation">
@@ -26,23 +22,6 @@ const ContentCreation = () => {
             My goal is to make English learning fun, accessible, and practical
             for learners worldwide.
           </p>
-          <div className="flex gap-4">
-            <Link href="https://www.youtube.com/@BrunoMCDowell" target="_blank">
-              <FaYoutube
-                size={22}
-                className="hover:text-slate-200 transition-all ease-in-out duration-200 hover:scale-125"
-              />
-            </Link>
-            <Link
-              href="https://www.tiktok.com/@englishwithbrunomcdowell"
-              target="_blank"
-            >
-              <FaTiktok
-                size={22}
-                className="hover:text-slate-200 transition-all ease-in-out duration-200 hover:scale-125"
-              />
-            </Link>
-          </div>
         </div>
       </div>
     </section>

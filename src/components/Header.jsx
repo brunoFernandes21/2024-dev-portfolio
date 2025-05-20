@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import MobileNavigation from "./MobileNavigation";
 import { Link } from "react-router-dom";
