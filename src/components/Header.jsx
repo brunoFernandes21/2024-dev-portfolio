@@ -71,9 +71,6 @@ const Header = ({ showNav, setShowNav }) => {
         >
           <FaLinkedin className="text-3xl hover:text-slate-400 transition-all ease-in-out duration-500" />
         </Link>
-        <Link to="https://www.youtube.com/@BrunoMCDowell" target="_blank">
-          <FaYoutube className="text-3xl hover:text-slate-400 transition-all ease-in-out duration-500" />
-        </Link>
       </section>
 
       <MobileNavigation setShowNav={setShowNav} />
